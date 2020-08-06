@@ -1,0 +1,24 @@
+{
+  "name": "podcaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-transpile": "npx node-sass -w scss/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Merglodova/podcaster.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Merglodova/podcaster/issues"
+  },
+  "homepage": "https://github.com/Merglodova/podcaster#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
