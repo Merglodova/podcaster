@@ -12,9 +12,10 @@
       margin: 8px;
       width: 330px;
       background-color: white;
-      opacity: 0.9; }
+      opacity: 0.9;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
   .plan__background {
-    background: url(../background_left.svg) left top, url(../background_right.svg) right bottom;
+    background: url(/img/background_left.svg) left top, url(/img/background_right.svg) right bottom;
     background-repeat: no-repeat; }
   .plan__title_basic {
     background: #90acfa;
@@ -38,6 +39,9 @@
   color: white;
   font-weight: 600; }
 
+.plan_heading {
+  font-size: 26px; }
+
 .plan__price {
   text-align: center;
   font-size: x-large;
@@ -53,8 +57,23 @@
   padding: 10px;
   border: none;
   width: 180px;
-  margin: 0px 100px;
   color: white; }
 
 .plan__options {
-  padding: 0 25px; }
+  padding: 0 25px;
+  text-align: left; }
+
+li:before {
+  content: "";
+  display: block;
+  background: url("/img/greenTick.png") no-repeat;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin: 0 6px 0 0; }
+
+.plan__options_notmarker {
+  list-style-type: none; }
+
+.plan__options_position {
+  margin-bottom: 10px; }
