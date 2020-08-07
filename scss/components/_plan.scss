@@ -1,0 +1,47 @@
+@import "./colors";
+
+.plan {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  &__content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-wrap: wrap;
+    min-width: 330px;
+
+  &_box {
+    margin: 8px;
+    width: 330px;
+    background-color: white;
+    opacity: 0.9;
+  }
+}
+
+  &__background {
+    background: url(/background_left.svg) left top,
+      url(/background_right.svg) right bottom;
+    background-repeat: no-repeat;
+  }
+  
+  &__title_basic {
+    background: $basic-color;
+    border-radius: 0.25rem;
+    border-color: $basic-color !important;
+  }
+
+  &__title_brand {
+    background: $brand-color;
+    border-radius: 0.25rem;
+    border-color: $brand-color !important;
+  }
+
+  &__title_enterprise {
+    background: $enterprise-color;
+    border-radius: 0.25rem;
+    border-color: $enterprise-color !important;
+  }
+}
+

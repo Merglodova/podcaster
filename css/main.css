@@ -1,2 +1,60 @@
-.li {
-  color: red; }
+.plan {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+  .plan__content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-wrap: wrap;
+    min-width: 330px; }
+    .plan__content_box {
+      margin: 8px;
+      width: 330px;
+      background-color: white;
+      opacity: 0.9; }
+  .plan__background {
+    background: url(/background_left.svg) left top, url(/background_right.svg) right bottom;
+    background-repeat: no-repeat; }
+  .plan__title_basic {
+    background: #90acfa;
+    border-radius: 0.25rem;
+    border-color: #90acfa !important; }
+  .plan__title_brand {
+    background: #edb4ff;
+    border-radius: 0.25rem;
+    border-color: #edb4ff !important; }
+  .plan__title_enterprise {
+    background: #ba95ff;
+    border-radius: 0.25rem;
+    border-color: #ba95ff !important; }
+
+.plan__title_main {
+  text-align: center; }
+
+.plan__title {
+  text-align: center;
+  padding: 3px;
+  color: white;
+  font-weight: 600; }
+
+.plan__price {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 500; }
+
+.plan__line {
+  border-top: 2px solid;
+  width: 80%;
+  margin: 20px 10%; }
+
+.plan__button {
+  text-align: center;
+  padding: 10px;
+  border: none;
+  width: 180px;
+  margin: 0px 100px;
+  color: white; }
+
+.plan__options {
+  padding: 0 25px; }
