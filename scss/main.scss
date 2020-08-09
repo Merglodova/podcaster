@@ -1,7 +1,6 @@
-@import "./components/plan";
-@import "./components/titles";
-@import "./components/price";
-@import "./components/line";
-@import "./components/button";
-@import "./components/options";
-@import "./components/colors";
+@import "./components/plan/index";
+@import "./components/header";
+
+body {
+  margin: 0;
+}

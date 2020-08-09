@@ -1,0 +1,26 @@
+.plan__title {
+  text-align: center;
+  padding: 3px;
+  color: white;
+  border-radius: 0.25rem;
+  font-weight: 600;
+
+  &_main {
+    text-align: center;
+  }
+
+  &_basic {
+    background: $basic-color;
+    border-color: $basic-color !important;
+  }
+
+  &_brand {
+    background: $brand-color;
+    border-color: $brand-color !important;
+  }
+
+  &_enterprise {
+    background: $enterprise-color;
+    border-color: $enterprise-color !important;
+  }
+}
