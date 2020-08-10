@@ -19,7 +19,7 @@
 li:before {
   content: "";
   display: block;
-  background: url("../../../img/greenTick.png") no-repeat;
+  background: url("../img/greenTick.png") no-repeat;
   width: 25px;
   height: 25px;
   display: inline-block;
@@ -54,7 +54,7 @@ li:before {
     .plan__content__heading {
       font-size: 26px; }
   .plan__background {
-    background: url(../../../img/background_left.svg) left top, url(../../../img/background_right.svg) right bottom;
+    background: url(../img/background_left.svg) left top, url(../img/background_right.svg) right bottom;
     background-repeat: no-repeat; }
 
 .plan__price {
